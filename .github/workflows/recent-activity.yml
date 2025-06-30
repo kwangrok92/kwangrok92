@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Readme-Workflows/recent-activity@v2
+      - uses: Readme-Workflows/recent-activity@v1
         with:
           GH_TOKEN: ${{ secrets.RECENT_ACTIVITY_TOKEN }}
