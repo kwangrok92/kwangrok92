@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 Skills & Tools
+## 🚀 Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"/>
@@ -22,17 +22,19 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/SnapKit-2C8EBB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RxSwift-B7178C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ReactorKit-0E83CD?style=for-the-badge"/>
+</p>
+
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/kwangrok92">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kwangrok92&show_icons=true&theme=radical&hide_border=true" />
-  </a>
-  <a href="https://github.com/kwangrok92">
-    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kwangrok92&layout=compact&theme=radical&hide_border=true" />
-  </a>
+  <img width="47%" height="195" src="https://github-readme-stats.vercel.app/api?username=kwangrok92&show_icons=true&theme=default&hide_border=true&hide_rank=true" />
+  <img width="38%" height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kwangrok92&layout=compact&theme=default&hide_border=true" />
 </p>
 
 ---
