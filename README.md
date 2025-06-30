@@ -37,10 +37,9 @@
 
 ---
 
-## 📝 최근 활동 (자동 업데이트 가능)
-
-<!-- GitHub Profile Activity Generator로 자동 업데이트 가능 -->
-<!-- https://github.com/Readme-Workflows/recent-activity -->
+## 📝 최근 활동
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
