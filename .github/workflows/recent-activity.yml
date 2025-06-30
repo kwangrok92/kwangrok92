@@ -1,16 +1,22 @@
-name: Recent Activity
+name: Update README
 
 on:
   schedule:
-    - cron: '0 * * * *' # 매 시간마다
+    - cron: "*/30 * * * *"  # 매 30분마다 실행 (원하시는 주기로 조정 가능)
   workflow_dispatch:
 
 jobs:
-  update-readme:
-    name: Update Recent Activity
+  build:
+    name: Update this repo's README with recent activity
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: Readme-Workflows/recent-activity@v1
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          GH_TOKEN: ${{ secrets.RECENT_ACTIVITY_TOKEN }}
+          COMMIT_MSG: "⚡ Update README with recent activity"
+          MAX_LINES: 5
