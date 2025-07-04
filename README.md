@@ -49,7 +49,7 @@
 
 <p align="center">
   <a href="mailto:kwangrok92@naver.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://crazydeer.tistory.com/"><img src="https://img.shields.io/badge/Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
+  <a href="https://crazydeer.tistory.com/"><img src="https://img.shields.io/badge/Tistory Blog-000000?style=for-the-badge&logo=blogger&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/kwangrok-kim"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
