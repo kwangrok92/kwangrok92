@@ -13,7 +13,8 @@
 
 캐시워크에서 **4년간** 대규모 iOS 앱을 설계·개발하며 4,000+ 기여, 140K+ 라인을 작성했습니다.
 회사에서는 수백만 사용자가 쓰는 앱의 안정성과 확장 가능한 구조를 다루고,
-개인 프로젝트에서는 **기획 → 설계 → 구현 → App Store 배포**까지 전 과정을 직접 책임집니다.
+개인 프로젝트에서는 **기획 → 설계 → 구현 → 배포**까지 혼자 진행하며,
+그 결과물인 [**타이머핏**](https://apps.apple.com/kr/app/id6792751925)을 App Store에 직접 출시했습니다.
 
 <br/>
 
@@ -44,7 +45,7 @@
 
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
-| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 172 commits · 42 PRs · 5.9K lines | App Store 심사 제출 |
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 172 commits · 42 PRs · 5.9K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6792751925) |
 | **Gongmoa** (공모아) | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 45 commits · 20 PRs · 6.1K lines | 개발 중 |
 | **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 34 commits · 4.6K lines · 5개 언어 | 출시 준비 |
 | **Cargineer** | 2025.04 ~ 2025.06 | UIKit · ReactorKit · RxSwift · CoreData | 40 commits · CI 파이프라인 구축 | 아카이브 |
@@ -53,16 +54,18 @@
 <tr>
 <td width="50%" valign="top">
 
-### ⏱ TimerFit — 인터벌 서킷 타이머
+### ⏱ TimerFit — 인터벌 서킷 타이머 <sub>App Store 출시</sub>
 
-심플한 카운트다운 타이머에서 시작해 **라운드마다 다른 운동을 따라 하는 인터벌 서킷 타이머**로 확장한 iOS 앱.
+<a href="https://apps.apple.com/kr/app/id6792751925"><img src="https://img.shields.io/badge/App%20Store-%ED%83%80%EC%9D%B4%EB%A8%B8%ED%95%8F-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
+
+심플한 카운트다운 타이머에서 시작해 **라운드마다 다른 운동을 따라 하는 인터벌 서킷 타이머**로 확장한 iOS 앱. **기획부터 심사·출시까지 혼자 진행해 App Store에 정식 출시**했습니다.
 
 - 서킷 구간/라운드를 순차 진행하는 **상태 머신**(`IntervalTimerService`) 직접 설계
 - **MVVM + Service 프로토콜 추상화**, 외부 의존성 0 · UserDefaults(Codable) 저장
 - 타바타/HIIT/EMOM 프리셋 + **사용자 서킷·커스텀 운동 생성/편집**
 - 플랫폼 중립 레이어(`TimerFitShared`)로 분리해 **watchOS 타깃 확장**
 - **fastlane + GitHub Actions**로 아카이브 → TestFlight → 심사 제출 자동화
-- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계한 뒤 재제출
+- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계 후 재제출 → **v1.0.0 출시**
 
 </td>
 <td width="50%" valign="top">
