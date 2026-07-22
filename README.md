@@ -3,88 +3,110 @@
 </p>
 
 <p align="center">
-  <b>Swift, RxSwift, ReactorKit 기반 대규모 상용 iOS 앱 개발자</b><br/>
-  Clean Architecture 설계 · 지도 기반 O2O 서비스 · 웹-네이티브 통합
+  <b>대규모 상용 iOS 앱을 만들고, 내 앱은 기획부터 출시까지 혼자 만듭니다</b><br/>
+  Swift · SwiftUI · ReactorKit / TCA · Clean Architecture · 웹-네이티브 하이브리드
 </p>
 
 <br/>
 
 ## About Me
 
-캐시워크에서 **4년간** 대규모 iOS 앱을 설계하고 개발해왔습니다.
-4,000+ 기여, 140K+ 라인의 코드를 작성하며 건강관리 앱의 핵심 기능부터 위치 기반
-리워드 서비스, 보물상자/캐시로또 시스템 개편까지 다양한 도메인을 경험했습니다.
+캐시워크에서 **4년간** 대규모 iOS 앱을 설계·개발하며 4,000+ 기여, 140K+ 라인을 작성했습니다.
+회사에서는 수백만 사용자가 쓰는 앱의 안정성과 확장 가능한 구조를 다루고,
+개인 프로젝트에서는 **기획 → 설계 → 구현 → App Store 배포**까지 전 과정을 직접 책임집니다.
 
 <br/>
 
 ## Career
 
-**Cashwalk Inc.** | iOS Developer | 2022.10 ~ Present
+**Cashwalk Inc.** · iOS Developer · 2022.10 ~ Present
 
-### Cashwalk (2025.08 ~ Present)
+| Project | Period | Role | Scale |
+|---------|--------|------|-------|
+| **Cashwalk** | 2025.08 ~ Present | 혜택 탭 보물상자 전면 개편 · 캐시로또 신규 탑재 · 위치 기반 O2O 리워드(동네산책) · 홈/공통 모듈 | 227 files 배포 · 50+ PRs · 415 files 리팩터링 |
+| **Geniet** | 2022.10 ~ 2025.12 | 건강관리 앱 — 만보기, 캐시로또, 웹뷰 브릿지 등 핵심 기능 | 3,560 commits · 106K+ lines |
+| **CashHomeTraining** | 2024.02 ~ 2025.07 | 홈트레이닝 앱 — SwiftUI + TCA 기반 카메라/음성 안내 모듈 | 395 commits · SPM 독립 모듈 |
 
-만보기 기반 리워드 플랫폼 앱. 동네산책, 혜택 탭, 홈/공통 모듈 담당.
+**Key Achievements**
 
-| Module | Period | Description | Scale |
-|--------|--------|-------------|-------|
-| **Advantage (보물상자/캐시로또)** | 2026.03 ~ Present | 혜택 탭 보물상자 전면 개편 및 캐시로또 신규 탑재 | 227 files · +7,098 lines 배포 |
-| **TownWalk** | 2025.08 ~ Present | 위치 기반 O2O 리워드 서비스, 영수증 리워드 MVP | 50+ PRs · 탐색 지도 + 영수증 인증 |
-| **Home / Common** | 2025.10 ~ Present | 푸시 시스템 리팩토링, 코드 품질 표준화, 인증 보안 강화 | 415 files refactored |
-
-### Geniet (2022.10 ~ 2025.12)
-
-건강관리 앱. 만보기, 캐시로또, 웹뷰 브릿지 등 핵심 기능 개발.
-
-| Scale |
-|-------|
-| 3,560 commits · 106K+ lines · 9,199 files |
-
-### CashHomeTraining (2024.02 ~ 2025.07)
-
-홈트레이닝 앱. SwiftUI + TCA 기반 카메라/음성 안내 모듈 개발.
-
-| Scale |
-|-------|
-| 395 commits · SPM 기반 독립 모듈 |
+- Clean Architecture + ReactorKit 기반 **167개 파일** 모듈 설계, 과도한 추상화 제거로 **432줄 삭제**
+- 227개 파일 규모 개편을 **오픈 플로우 → 튜토리얼 → API → 배포**로 20+ PR 분리해 안전하게 배포
+- NMapsMap 기반 **18가지 마커 상태 머신** + 반경 기반 실시간 동기화로 GPS 리워드 서비스 구현
+- 하드코딩된 푸시 분기를 `FCMMessageType` enum 아키텍처로 재설계 — **30+ 타입 확장 가능 구조**
+- SwiftLint 경고를 **415개 파일** 일괄 정리해 빌드 경고 0 달성, 웹뷰-네이티브 **20+ 브릿지** 구축
 
 <br/>
 
-## Highlights
+## Personal Projects
+
+> 회사에서 검증한 구조를 개인 앱에서 다시 실험합니다.
+> UIKit/RxSwift → SwiftUI/TCA → React + Capacitor 하이브리드까지, 스택을 직접 골라 끝까지 만들어 봅니다.
+
+| Project | Period | Stack | Scale | Status |
+|---------|--------|-------|-------|--------|
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 172 commits · 42 PRs · 5.9K lines | App Store 심사 제출 |
+| **Gongmoa** (공모아) | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 45 commits · 20 PRs · 6.1K lines | 개발 중 |
+| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 34 commits · 4.6K lines · 5개 언어 | 출시 준비 |
+| **Cargineer** | 2025.04 ~ 2025.06 | UIKit · ReactorKit · RxSwift · CoreData | 40 commits · CI 파이프라인 구축 | 아카이브 |
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Architecture & Design
-- Clean Architecture + ReactorKit 기반 **167개 파일** 모듈 설계
-- 과도한 추상화 제거로 **432줄 코드 삭제**, 실용적 아키텍처 수립
-- SwiftUI + TCA 전환 주도, SPM 기반 독립 모듈 구조 구축
+### ⏱ TimerFit — 인터벌 서킷 타이머
+
+심플한 카운트다운 타이머에서 시작해 **라운드마다 다른 운동을 따라 하는 인터벌 서킷 타이머**로 확장한 iOS 앱.
+
+- 서킷 구간/라운드를 순차 진행하는 **상태 머신**(`IntervalTimerService`) 직접 설계
+- **MVVM + Service 프로토콜 추상화**, 외부 의존성 0 · UserDefaults(Codable) 저장
+- 타바타/HIIT/EMOM 프리셋 + **사용자 서킷·커스텀 운동 생성/편집**
+- 플랫폼 중립 레이어(`TimerFitShared`)로 분리해 **watchOS 타깃 확장**
+- **fastlane + GitHub Actions**로 아카이브 → TestFlight → 심사 제출 자동화
+- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계한 뒤 재제출
 
 </td>
 <td width="50%" valign="top">
 
-### Large-Scale Feature Delivery
-- 보물상자 개편 1차 배포: **227개 파일**, 20+ PR 체계적 분리 관리
-- 캐시로또 모듈 신규 탑재 (+1,600 lines), 딥링크/푸시 통합
-- 영수증 리워드 MVP 독립 설계 및 구현 (+4,400 lines, 184 files)
+### 📈 Gongmoa (공모아) — 공모주 청약 관리
+
+헤비 공모주 비례 투자자를 위한 **청약 일정·기록·손익 자동 계산** 앱. 스프레드시트 수기 관리를 대체합니다.
+
+- **웹 코어 하이브리드** — React + TS 코어를 Capacitor로 iOS 네이티브 셸에 탑재
+- 파생 상태를 저장하지 않는 **단일 진실 원본** 설계 (손익·자금효율 항상 재계산)
+- **오프라인 우선** — 로컬 SQLite durable 저장, 로그인 없이도 완전 동작
+- 동기화 엔진 자체 구현 — **pull→push 델타 · LWW · 툼스톤**, Supabase Realtime 반영
+- Supabase 이메일 인증 · **RLS** 정책, Edge Function 기반 계정 삭제
+- 도메인 계산 로직 우선 테스트(Vitest), 모든 기능을 **PR 단위**로 분리 관리
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Map & Location
-- NMapsMap 기반 탐색용 지도 시스템 (18가지 마커 상태 관리)
-- Stack 기반 장소 이동 히스토리 관리
-- 반경 기반 실시간 마커 상태 동기화
+### 🧌 Doblin — 성장형 할 일 앱
+
+"오늘 지금 뭘 해야 하지?"에 답하는 할 일 앱. 완료할수록 자라는 캐릭터가 보상입니다.
+
+- **TCA + SwiftData** — 단일 진실 원본, `TestStore` 기반 유닛 테스트
+- 사용자 데이터가 생기기 전에 **SwiftData 스키마 버저닝** 선반영
+- **자연어 날짜 파싱** 입력, 반복 작업(매일/주중/주간/월간), 홈 화면 **위젯**(App Group 공유)
+- 로컬 알림(전역 + 작업별), 드래그 정렬 · 스와이프 · 실행 취소 토스트
+- **5개 언어** 현지화 + 인앱 언어 전환, 다크 우선 테마, 접근성 패스
+- **XcodeGen**으로 프로젝트 파일 생성, 재현 가능한 스크린샷 파이프라인
 
 </td>
 <td width="50%" valign="top">
 
-### System Refactoring
-- 푸시 시스템 재설계: 30+ 타입 지원하는 확장 가능한 구조
-- SwiftLint 경고 **415개 파일** 일괄 정리, 빌드 경고 0 달성
-- 웹뷰-네이티브 **20+ 브릿지 함수** 시스템 구축
+### 🚗 Cargineer — 차량 관리
+
+정비 기록·주유 내역·연비를 한 번에 관리하는 다중 차량 관리 앱.
+
+- **UIKit + ReactorKit + RxSwift** 단방향 데이터 흐름 구성
+- **CoreData** 로컬 영속화, 메인 차량 중심 대시보드 UI
+- `NotificationManager` 추상화 — 로컬 푸시 등록/수신, 포그라운드 Alert 대체 처리
+- 알림 탭 → 탭 전환 딥링크 연결, 등록/실패 시 햅틱 피드백
+- **GitHub Actions CI** 구축 — 시뮬레이터·OS 버전 명시로 빌드 안정화
+- `main` / `develop` / `feature` 브랜치 전략과 PR 리뷰 흐름 연습
 
 </td>
 </tr>
@@ -98,32 +120,37 @@
 
 **Language & Framework**
 
-<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/UIKit-000000?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/UIKit-000000?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/watchOS-000000?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
 
-**Architecture & Reactive**
+**Architecture & State**
 
-<img src="https://img.shields.io/badge/ReactorKit-0E83CD?style=flat-square"/> <img src="https://img.shields.io/badge/RxSwift-B7178C?style=flat-square"/> <img src="https://img.shields.io/badge/TCA-000000?style=flat-square"/> <img src="https://img.shields.io/badge/Clean%20Architecture-4CAF50?style=flat-square"/>
+<img src="https://img.shields.io/badge/ReactorKit-0E83CD?style=flat-square"/> <img src="https://img.shields.io/badge/RxSwift-B7178C?style=flat-square"/> <img src="https://img.shields.io/badge/TCA-000000?style=flat-square"/> <img src="https://img.shields.io/badge/Combine-FF2D55?style=flat-square"/> <img src="https://img.shields.io/badge/Clean%20Architecture-4CAF50?style=flat-square"/> <img src="https://img.shields.io/badge/Zustand-433E38?style=flat-square"/>
 
-**UI & Tools**
+**Data & Backend**
 
-<img src="https://img.shields.io/badge/SnapKit-2C8EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Lottie-00DDB3?style=flat-square"/> <img src="https://img.shields.io/badge/NMapsMap-03C75A?style=flat-square&logo=naver&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Tuist-5C2D91?style=flat-square"/> <img src="https://img.shields.io/badge/Fastlane-00F200?style=flat-square&logo=fastlane&logoColor=black"/>
+<img src="https://img.shields.io/badge/SwiftData-0071E3?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/CoreData-147EFB?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+
+**UI & Tooling**
+
+<img src="https://img.shields.io/badge/SnapKit-2C8EBB?style=flat-square"/> <img src="https://img.shields.io/badge/Lottie-00DDB3?style=flat-square"/> <img src="https://img.shields.io/badge/NMapsMap-03C75A?style=flat-square&logo=naver&logoColor=white"/> <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white"/> <img src="https://img.shields.io/badge/Tuist-5C2D91?style=flat-square"/> <img src="https://img.shields.io/badge/XcodeGen-1575F9?style=flat-square"/> <img src="https://img.shields.io/badge/Fastlane-00F200?style=flat-square&logo=fastlane&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 
 </p>
 
 <br/>
 
-## Problem Solving
+## How I Work
 
 > **"문제를 구조적으로 분석하고, 확장 가능한 해결책을 설계합니다."**
 
 | Challenge | Approach | Result |
 |-----------|----------|--------|
-| 보물상자 오픈 플로우 자정 경계값 오류 | 기기 시간 대신 서버 시간 기반 비교로 전환 | Race Condition 방어, 안정적 날짜 전환 |
-| 227개 파일 규모 보물상자 개편 | 오픈 플로우 → 튜토리얼 → API → 배포로 PR 분리 | 20+ PR 체계적 관리, 1차 배포 완료 |
-| GPS 기반 18가지 UI 상태 동기화 | ReactorKit 상태 머신 + 반경 기반 마커 관리 | 안정적인 실시간 지도 서비스 |
-| 하드코딩된 푸시 분기 로직 | FCMMessageType enum 기반 아키텍처 재설계 | 30+ 타입 확장 가능한 구조 |
-| 수천 개의 SwiftLint 경고 누적 | 규칙별 분류 후 자동+수동 일괄 수정 | 415개 파일 정리, 빌드 경고 0 |
+| 227개 파일 규모 기능 개편 | 오픈 플로우 → 튜토리얼 → API → 배포로 PR 분리 | 20+ PR 체계적 관리, 1차 배포 완료 |
+| 보물상자 자정 경계값 오류 | 기기 시간 대신 서버 시간 기준 비교로 전환 | Race Condition 방어, 안정적 날짜 전환 |
+| 다기기 간 데이터 충돌 | 델타 커서 + LWW + 툼스톤 기반 동기화 엔진 자체 구현 | 오프라인 우선을 지키면서 실시간 반영 |
 | Clean Architecture 과도한 추상화 | 불필요한 UseCase 레이어 제거, Repository 직접 호출 | 432줄 삭제, 생산성 향상 |
+| 개인 앱의 반복되는 배포 작업 | fastlane lane + GitHub Actions로 아카이브~심사 자동화 | 빌드마다 수동 작업 제거 |
+
+<br/>
 
 ## Connect
 
