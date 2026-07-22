@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>대규모 상용 iOS 앱을 만들고, 내 앱은 기획부터 출시까지 혼자 만듭니다</b><br/>
+  <b>상용 iOS 앱 개발 · 개인 앱 기획부터 출시까지</b><br/>
   Swift · SwiftUI · ReactorKit / TCA · Clean Architecture · 웹-네이티브 하이브리드
 </p>
 
