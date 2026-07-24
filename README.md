@@ -7,6 +7,12 @@
   Swift · SwiftUI · ReactorKit / TCA · Clean Architecture · 웹-네이티브 하이브리드
 </p>
 
+<p align="center">
+  <a href="#personal-projects"><img src="https://img.shields.io/badge/App%20Store%20%EC%B6%9C%EC%8B%9C-2%EA%B0%9C-0D96F6?style=for-the-badge&logo=appstore&logoColor=white"/></a>&nbsp;
+  <a href="#personal-projects"><img src="https://img.shields.io/badge/%EC%8B%AC%EC%82%AC%20%EC%A4%91-1%EA%B0%9C-FF9500?style=for-the-badge&logo=apple&logoColor=white"/></a>&nbsp;
+  <a href="#career"><img src="https://img.shields.io/badge/iOS%20%EA%B2%BD%EB%A0%A5-4%2B%20Years-1e3a5f?style=for-the-badge&logo=swift&logoColor=white"/></a>
+</p>
+
 <br/>
 
 ## About Me
@@ -42,6 +48,32 @@
 
 > 회사에서 검증한 구조를 개인 앱에서 다시 실험합니다.
 > UIKit/RxSwift → SwiftUI/TCA → React + Capacitor 하이브리드까지, 스택을 직접 골라 끝까지 만들어 봅니다.
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="assets/icon-timerfit.png" width="56"/><br/>
+<b>TimerFit</b><br/>
+<sub>인터벌 서킷 타이머 · watchOS</sub><br/><br/>
+<img src="assets/shot-timerfit.png" width="200"/><br/><br/>
+<a href="https://apps.apple.com/kr/app/id6792751925"><img src="https://img.shields.io/badge/App%20Store-%EC%B6%9C%EC%8B%9C-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
+</td>
+<td align="center" width="33%">
+<img src="assets/icon-gongmoa.png" width="56"/><br/>
+<b>공모아</b><br/>
+<sub>공모주 청약 기록 · 손익 관리</sub><br/><br/>
+<img src="assets/shot-gongmoa.png" width="200"/><br/><br/>
+<a href="https://apps.apple.com/kr/app/id6793987876"><img src="https://img.shields.io/badge/App%20Store-%EC%B6%9C%EC%8B%9C-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a> <a href="https://gongmoa.app"><img src="https://img.shields.io/badge/Web-gongmoa.app-1e3a5f?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+</td>
+<td align="center" width="33%">
+<img src="assets/icon-doblin.png" width="56"/><br/>
+<b>Doblin</b><br/>
+<sub>성장형 할 일 앱 · 5개 언어</sub><br/><br/>
+<img src="assets/shot-doblin.png" width="200"/><br/><br/>
+<img src="https://img.shields.io/badge/App%20Store-%EC%8B%AC%EC%82%AC%20%EC%A4%91-FF9500?style=flat-square&logo=apple&logoColor=white"/>
+</td>
+</tr>
+</table>
 
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
@@ -164,3 +196,5 @@
   <a href="https://crazydeer.tistory.com/"><img src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=blogger&logoColor=white"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/kwangrok-kim"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,100:1e3a5f&height=120&section=footer"/>
