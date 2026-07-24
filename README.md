@@ -45,7 +45,7 @@
 
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
-| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 194 commits · 53 PRs · 6.2K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6792751925) · v1.1.0 심사 중 |
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 194 commits · 53 PRs · 6.2K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6792751925) (v1.1.0) |
 | **Gongmoa** (공모아) | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 60 commits · 26 PRs · 7.8K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6793987876) |
 | **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 52 commits · 4.7K lines · 5개 언어 | 🔍 App Store 심사 중 |
 | **Cargineer** | 2025.04 ~ 2025.06 | UIKit · ReactorKit · RxSwift · CoreData | 40 commits · CI 파이프라인 구축 | 아카이브 |
@@ -65,7 +65,7 @@
 - 타바타/HIIT/EMOM 프리셋 + **사용자 서킷·커스텀 운동 생성/편집**
 - 플랫폼 중립 레이어(`TimerFitShared`)로 분리해 **watchOS 워치 앱 확장** — 아이폰-워치 루틴 동기화
 - **fastlane + GitHub Actions**로 아카이브 → TestFlight → 심사 제출 자동화
-- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계 후 재제출 → **v1.0.0 출시**, 워치 앱을 담은 **v1.1.0 심사 제출**
+- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계 후 재제출 → **v1.0.0 출시**, 워치 앱을 담은 **v1.1.0 업데이트 배포**
 
 </td>
 <td width="50%" valign="top">
