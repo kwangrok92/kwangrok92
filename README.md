@@ -24,26 +24,6 @@
 
 <br/>
 
-## Career
-
-**Cashwalk Inc.** · iOS Developer · 2022.10 ~ Present
-
-| Project | Period | Role | Scale |
-|---------|--------|------|-------|
-| **Cashwalk** | 2025.08 ~ Present | 혜택 탭 보물상자 전면 개편 · 캐시로또 신규 탑재 · 위치 기반 O2O 리워드(동네산책) · 홈/공통 모듈 | 227 files 배포 · 50+ PRs · 415 files 리팩터링 |
-| **Geniet** | 2022.10 ~ 2025.12 | 건강관리 앱 — 만보기, 캐시로또, 웹뷰 브릿지 등 핵심 기능 | 3,560 commits · 106K+ lines |
-| **CashHomeTraining** | 2024.02 ~ 2025.07 | 홈트레이닝 앱 — SwiftUI + TCA 기반 카메라/음성 안내 모듈 | 395 commits · SPM 독립 모듈 |
-
-**Key Achievements**
-
-- Clean Architecture + ReactorKit 기반 **167개 파일** 모듈 설계, 과도한 추상화 제거로 **432줄 삭제**
-- 227개 파일 규모 개편을 **오픈 플로우 → 튜토리얼 → API → 배포**로 20+ PR 분리해 안전하게 배포
-- NMapsMap 기반 **18가지 마커 상태 머신** + 반경 기반 실시간 동기화로 GPS 리워드 서비스 구현
-- 하드코딩된 푸시 분기를 `FCMMessageType` enum 아키텍처로 재설계 — **30+ 타입 확장 가능 구조**
-- SwiftLint 경고를 **415개 파일** 일괄 정리해 빌드 경고 0 달성, 웹뷰-네이티브 **20+ 브릿지** 구축
-
-<br/>
-
 ## Personal Projects
 
 > 회사에서 검증한 구조를 개인 앱에서 다시 실험합니다.
@@ -149,6 +129,26 @@
 </td>
 </tr>
 </table>
+
+<br/>
+
+## Career
+
+**Cashwalk Inc.** · iOS Developer · 2022.10 ~ Present
+
+| Project | Period | Role | Scale |
+|---------|--------|------|-------|
+| **Cashwalk** | 2025.08 ~ Present | 혜택 탭 보물상자 전면 개편 · 캐시로또 신규 탑재 · 위치 기반 O2O 리워드(동네산책) · 홈/공통 모듈 | 227 files 배포 · 50+ PRs · 415 files 리팩터링 |
+| **Geniet** | 2022.10 ~ 2025.12 | 건강관리 앱 — 만보기, 캐시로또, 웹뷰 브릿지 등 핵심 기능 | 3,560 commits · 106K+ lines |
+| **CashHomeTraining** | 2024.02 ~ 2025.07 | 홈트레이닝 앱 — SwiftUI + TCA 기반 카메라/음성 안내 모듈 | 395 commits · SPM 독립 모듈 |
+
+**Key Achievements**
+
+- Clean Architecture + ReactorKit 기반 **167개 파일** 모듈 설계, 과도한 추상화 제거로 **432줄 삭제**
+- 227개 파일 규모 개편을 **오픈 플로우 → 튜토리얼 → API → 배포**로 20+ PR 분리해 안전하게 배포
+- NMapsMap 기반 **18가지 마커 상태 머신** + 반경 기반 실시간 동기화로 GPS 리워드 서비스 구현
+- 하드코딩된 푸시 분기를 `FCMMessageType` enum 아키텍처로 재설계 — **30+ 타입 확장 가능 구조**
+- SwiftLint 경고를 **415개 파일** 일괄 정리해 빌드 경고 0 달성, 웹뷰-네이티브 **20+ 브릿지** 구축
 
 <br/>
 
