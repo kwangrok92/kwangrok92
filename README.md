@@ -14,7 +14,7 @@
 캐시워크에서 **4년간** 대규모 iOS 앱을 설계·개발하며 4,000+ 기여, 140K+ 라인을 작성했습니다.
 회사에서는 수백만 사용자가 쓰는 앱의 안정성과 확장 가능한 구조를 다루고,
 개인 프로젝트에서는 **기획 → 설계 → 구현 → 배포**까지 혼자 진행하며,
-그 결과물인 [**타이머핏**](https://apps.apple.com/kr/app/id6792751925)을 App Store에 직접 출시했습니다.
+[**타이머핏**](https://apps.apple.com/kr/app/id6792751925)과 [**공모아**](https://apps.apple.com/kr/app/id6793987876) **두 개의 앱을 App Store에 직접 출시**했고, 세 번째 앱 **Doblin**이 심사 중입니다.
 
 <br/>
 
@@ -45,9 +45,9 @@
 
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
-| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 172 commits · 42 PRs · 5.9K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6792751925) |
-| **Gongmoa** (공모아) | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 45 commits · 20 PRs · 6.1K lines | 개발 중 |
-| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 34 commits · 4.6K lines · 5개 언어 | 출시 준비 |
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 194 commits · 53 PRs · 6.2K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6792751925) · v1.1.0 심사 중 |
+| **Gongmoa** (공모아) | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 60 commits · 26 PRs · 7.8K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6793987876) |
+| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 52 commits · 4.7K lines · 5개 언어 | 🔍 App Store 심사 중 |
 | **Cargineer** | 2025.04 ~ 2025.06 | UIKit · ReactorKit · RxSwift · CoreData | 40 commits · CI 파이프라인 구축 | 아카이브 |
 
 <table>
@@ -63,22 +63,25 @@
 - 서킷 구간/라운드를 순차 진행하는 **상태 머신**(`IntervalTimerService`) 직접 설계
 - **MVVM + Service 프로토콜 추상화**, 외부 의존성 0 · UserDefaults(Codable) 저장
 - 타바타/HIIT/EMOM 프리셋 + **사용자 서킷·커스텀 운동 생성/편집**
-- 플랫폼 중립 레이어(`TimerFitShared`)로 분리해 **watchOS 타깃 확장**
+- 플랫폼 중립 레이어(`TimerFitShared`)로 분리해 **watchOS 워치 앱 확장** — 아이폰-워치 루틴 동기화
 - **fastlane + GitHub Actions**로 아카이브 → TestFlight → 심사 제출 자동화
-- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계 후 재제출 → **v1.0.0 출시**
+- App Store 4.2(최소 기능) 대응을 위해 제품 범위를 재설계 후 재제출 → **v1.0.0 출시**, 워치 앱을 담은 **v1.1.0 심사 제출**
 
 </td>
 <td width="50%" valign="top">
 
-### 📈 Gongmoa (공모아) — 공모주 청약 관리
+### 📈 Gongmoa (공모아) — 공모주 청약 관리 <sub>App Store 출시</sub>
 
-헤비 공모주 비례 투자자를 위한 **청약 일정·기록·손익 자동 계산** 앱. 스프레드시트 수기 관리를 대체합니다.
+<a href="https://apps.apple.com/kr/app/id6793987876"><img src="https://img.shields.io/badge/App%20Store-%EA%B3%B5%EB%AA%A8%EC%95%84-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a> <a href="https://gongmoa.app"><img src="https://img.shields.io/badge/Web-gongmoa.app-1e3a5f?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+
+헤비 공모주 비례 투자자를 위한 **청약 일정·기록·손익 자동 계산** 앱. 스프레드시트 수기 관리를 대체하며, **첫 커밋부터 App Store 출시까지 1주**에 완주했습니다.
 
 - **웹 코어 하이브리드** — React + TS 코어를 Capacitor로 iOS 네이티브 셸에 탑재
+- 같은 코어를 웹([gongmoa.app](https://gongmoa.app))으로도 배포 — **웹·iOS 동시 서비스**
 - 파생 상태를 저장하지 않는 **단일 진실 원본** 설계 (손익·자금효율 항상 재계산)
-- **오프라인 우선** — 로컬 SQLite durable 저장, 로그인 없이도 완전 동작
-- **다기기 동기화** — Supabase Realtime으로 다른 기기의 변경 자동 반영
-- Supabase 이메일 인증 · **RLS** 정책, Edge Function 기반 계정 삭제
+- **오프라인 우선** — Repository 추상화로 SQLite(iOS)/IndexedDB(웹) 저장, 로그인 없이도 완전 동작
+- **다기기 동기화** — Supabase Realtime · **RLS** 정책 · Edge Function 계정 삭제
+- **Xcode Cloud CI** — 웹 코어 빌드를 네이티브 빌드 단계에 주입해 자동화
 - 도메인 계산 로직 우선 테스트(Vitest), 모든 기능을 **PR 단위**로 분리 관리
 
 </td>
@@ -86,16 +89,16 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🧌 Doblin — 성장형 할 일 앱
+### 🧌 Doblin — 성장형 할 일 앱 <sub>App Store 심사 중</sub>
 
-"오늘 지금 뭘 해야 하지?"에 답하는 할 일 앱. 완료할수록 자라는 캐릭터가 보상입니다.
+"오늘 지금 뭘 해야 하지?"에 답하는 할 일 앱. 완료할수록 자라는 캐릭터가 보상입니다. 현재 **v1.0.0 App Store 심사 진행 중**입니다.
 
 - **TCA + SwiftData** — 단일 진실 원본, `TestStore` 기반 유닛 테스트
 - 사용자 데이터가 생기기 전에 **SwiftData 스키마 버저닝** 선반영
 - **자연어 날짜 파싱** 입력, 반복 작업(매일/주중/주간/월간), 홈 화면 **위젯**(App Group 공유)
 - 로컬 알림(전역 + 작업별), 드래그 정렬 · 스와이프 · 실행 취소 토스트
 - **5개 언어** 현지화 + 인앱 언어 전환, 다크 우선 테마, 접근성 패스
-- **XcodeGen**으로 프로젝트 파일 생성, 재현 가능한 스크린샷 파이프라인
+- **XcodeGen** 프로젝트 생성 · 재현 가능한 스크린샷 파이프라인 · **fastlane**으로 메타데이터/스크린샷 업로드까지 자동화
 
 </td>
 <td width="50%" valign="top">
