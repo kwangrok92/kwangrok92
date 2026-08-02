@@ -58,7 +58,7 @@
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
 | **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS | 194 commits · 53 PRs · 6.2K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6792751925) |
-| **Gongmoa** (공모아) | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 60 commits · 26 PRs · 7.8K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6793987876) |
+| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 60 commits · 26 PRs · 7.8K lines | 🚀 [**App Store 출시**](https://apps.apple.com/kr/app/id6793987876) |
 | **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 52 commits · 4.7K lines · 5개 언어 | 🔍 App Store 심사 중 |
 | **Cargineer** | 2025.04 ~ 2025.06 | UIKit · ReactorKit · RxSwift · CoreData | 40 commits · CI 파이프라인 구축 | 아카이브 |
 
