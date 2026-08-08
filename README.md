@@ -66,10 +66,10 @@
 
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
-| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS · WidgetKit | 269 commits · 77 PRs · 8.0K lines | 🚀 [**App Store v1.2.0**](https://apps.apple.com/kr/app/id6792751925) |
-| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 113 commits · 52 PRs · 7.9K lines | 🚀 [**App Store v1.2.0**](https://apps.apple.com/kr/app/id6793987876) |
-| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 67 commits · 16 PRs · 5.7K lines · 5개 언어 | 🚀 [**App Store v1.0.0**](https://apps.apple.com/kr/app/id6793759598) |
-| **Cargineer** | 2025.04 ~ Present | SwiftUI · SwiftData · Swift Charts · 의존성 0 | 93 commits · 7.6K lines · 유닛 테스트 37건 | 🚀 [**App Store v1.0.0**](https://apps.apple.com/kr/app/id6797176247) |
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS · WidgetKit | 269 commits · 77 PRs · 8.0K lines | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6792751925) |
+| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 113 commits · 52 PRs · 7.9K lines | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6793987876) |
+| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 67 commits · 16 PRs · 5.7K lines · 5개 언어 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6793759598) |
+| **Cargineer** | 2025.04 ~ Present | SwiftUI · SwiftData · Swift Charts · 의존성 0 | 93 commits · 7.6K lines · 유닛 테스트 37건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6797176247) |
 
 <table>
 <tr>
