@@ -67,12 +67,12 @@
 </tr>
 </table>
 
-| Project | Period | Stack | Scale | Status |
-|---------|--------|-------|-------|--------|
-| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS · WidgetKit · AlarmKit | 351 commits · 96 PRs · 9.1K lines · 테스트 117건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6792751925) |
-| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 144 commits · 69 PRs · 7.3K lines · 테스트 165건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6793987876) |
-| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 133 commits · 17 PRs · 7.0K lines · 5개 언어 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6793759598) |
-| **Cargineer** | 2025.04 ~ Present | SwiftUI · SwiftData · Swift Charts · 의존성 0 | 157 commits · 10.2K lines · 테스트 181건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6797176247) |
+| Project | Period | Stack | Scale |
+|---------|--------|-------|-------|
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS · WidgetKit · AlarmKit | 351 commits · 96 PRs · 9.1K lines · 테스트 117건 |
+| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 144 commits · 69 PRs · 7.3K lines · 테스트 165건 |
+| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 133 commits · 17 PRs · 7.0K lines · 5개 언어 |
+| **Cargineer** | 2025.04 ~ Present | SwiftUI · SwiftData · Swift Charts · 의존성 0 | 157 commits · 10.2K lines · 테스트 181건 |
 
 <sub>지표 기준 2026-08-19 · 커밋·PR·라인·테스트는 각 저장소 git 이력에서 집계(라인은 테스트 제외 소스 기준).</sub>
 
@@ -203,7 +203,7 @@
 | 1년 방치된 UIKit 프로토타입 | 부분 수정 대신 SwiftUI 전면 재구축 결정 | 의존성 4개 → 0개, 테스트 181건, App Store 출시 |
 | 심사 거부(2.5.4) 후 받은 조건부 승인 | 회색지대를 우회하지 않고 **백그라운드 모드 자체를 철수**, 신호를 로컬 알림으로 재설계 | 다음 버전에서 약속 이행 → 재거부 없이 통과 |
 | 검증할 수 없는 기능(iCloud 동기화) | 같은 계정 기기가 한 대뿐이라 **다음 버전으로 컷** | 마이그레이션 도박 회피, 요구사항은 그대로 이월 |
-| 출시했는데 유입이 없다 | 기능을 더 넣는 대신 ASO·첫인상 릴리스 → 제품 웨지를 퍼널 위(일정 제공)로 이동 | 근거 문서 기반 피봇 결정, 1.4.0 착수 |
+| 출시했는데 유입이 없다 | 기능을 더 넣는 대신 ASO·첫인상 릴리스 → 제품 웨지를 퍼널 위(일정 제공)로 이동 | 근거 문서 기반 피봇 결정, 다음 릴리스로 착수 |
 | 업로드한 빌드가 브랜치보다 오래됐다 | 제출 전 **빌드 번호의 커밋과 HEAD를 대조**하는 절차를 규칙으로 고정 | 옛 문구가 나갈 뻔한 제출을 사전 차단 |
 | 개인 앱의 반복되는 배포 작업 | fastlane lane + Xcode Cloud / GitHub Actions로 아카이브~심사 자동화 | 빌드마다 수동 작업 제거 |
 
