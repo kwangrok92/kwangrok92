@@ -41,38 +41,38 @@
 <b>타이머핏</b><br/>
 <sub>인터벌 서킷 타이머 · watchOS</sub><br/><br/>
 <img src="assets/shot-timerfit.png" width="165"/><br/><br/>
-<a href="https://apps.apple.com/kr/app/id6792751925"><img src="https://img.shields.io/badge/App%20Store-v1.4.0-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
+<a href="https://apps.apple.com/kr/app/id6792751925"><img src="https://img.shields.io/badge/App%20Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
 </td>
 <td align="center" width="25%">
 <img src="assets/icon-gongmoa.png" width="52"/><br/>
 <b>공모아</b><br/>
 <sub>공모주 청약 기록 · 손익 관리</sub><br/><br/>
 <img src="assets/shot-gongmoa.png" width="165"/><br/><br/>
-<a href="https://apps.apple.com/kr/app/id6793987876"><img src="https://img.shields.io/badge/App%20Store-v1.3.2-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a> <a href="https://gongmoa.app"><img src="https://img.shields.io/badge/Web-gongmoa.app-1e3a5f?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+<a href="https://apps.apple.com/kr/app/id6793987876"><img src="https://img.shields.io/badge/App%20Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a> <a href="https://gongmoa.app"><img src="https://img.shields.io/badge/Web-gongmoa.app-1e3a5f?style=flat-square&logo=googlechrome&logoColor=white"/></a>
 </td>
 <td align="center" width="25%">
 <img src="assets/icon-doblin.png" width="52"/><br/>
 <b>Doblin</b><br/>
 <sub>성장형 할 일 앱 · 5개 언어</sub><br/><br/>
 <img src="assets/shot-doblin.png" width="165"/><br/><br/>
-<a href="https://apps.apple.com/kr/app/id6793759598"><img src="https://img.shields.io/badge/App%20Store-v1.3.0-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
+<a href="https://apps.apple.com/kr/app/id6793759598"><img src="https://img.shields.io/badge/App%20Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
 </td>
 <td align="center" width="25%">
 <img src="assets/icon-cargineer.png" width="52"/><br/>
 <b>카지니어</b><br/>
 <sub>차계부 · 차량관리 · 연비</sub><br/><br/>
 <img src="assets/shot-cargineer.png" width="165"/><br/><br/>
-<a href="https://apps.apple.com/kr/app/id6797176247"><img src="https://img.shields.io/badge/App%20Store-v1.2.0-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
+<a href="https://apps.apple.com/kr/app/id6797176247"><img src="https://img.shields.io/badge/App%20Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
 </td>
 </tr>
 </table>
 
 | Project | Period | Stack | Scale | Status |
 |---------|--------|-------|-------|--------|
-| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS · WidgetKit · AlarmKit | 351 commits · 96 PRs · 9.1K lines · 테스트 117건 | 🚀 [**v1.4.0**](https://apps.apple.com/kr/app/id6792751925) · 1.5.0 개발 중 |
-| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 144 commits · 69 PRs · 7.3K lines · 테스트 165건 | 🚀 [**v1.3.2**](https://apps.apple.com/kr/app/id6793987876) · 1.4.0 개발 중 |
-| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 133 commits · 17 PRs · 7.0K lines · 5개 언어 | 🚀 [**v1.3.0**](https://apps.apple.com/kr/app/id6793759598) · **1.4.0 심사 중** |
-| **Cargineer** | 2025.04 ~ Present | SwiftUI · SwiftData · Swift Charts · 의존성 0 | 157 commits · 10.2K lines · 테스트 181건 | 🚀 [**v1.2.0**](https://apps.apple.com/kr/app/id6797176247) · **1.3.0 심사 중** |
+| **TimerFit** | 2025.04 ~ Present | SwiftUI · Combine · watchOS · WidgetKit · AlarmKit | 351 commits · 96 PRs · 9.1K lines · 테스트 117건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6792751925) |
+| **Gongmoa** | 2026.07 ~ Present | React · TypeScript · Capacitor · Supabase | 144 commits · 69 PRs · 7.3K lines · 테스트 165건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6793987876) |
+| **Doblin** | 2026.07 ~ Present | SwiftUI · TCA · SwiftData | 133 commits · 17 PRs · 7.0K lines · 5개 언어 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6793759598) |
+| **Cargineer** | 2025.04 ~ Present | SwiftUI · SwiftData · Swift Charts · 의존성 0 | 157 commits · 10.2K lines · 테스트 181건 | 🚀 [**App Store**](https://apps.apple.com/kr/app/id6797176247) |
 
 <sub>지표 기준 2026-08-19 · 커밋·PR·라인·테스트는 각 저장소 git 이력에서 집계(라인은 테스트 제외 소스 기준).</sub>
 
@@ -80,82 +80,62 @@
 <tr>
 <td width="50%" valign="top">
 
-### ⏱ TimerFit — 인터벌 서킷 타이머 <sub>App Store 출시 · v1.4.0</sub>
+### ⏱ TimerFit — 인터벌 서킷 타이머 <sub>App Store 출시</sub>
 
 <a href="https://apps.apple.com/kr/app/id6792751925"><img src="https://img.shields.io/badge/App%20Store-%ED%83%80%EC%9D%B4%EB%A8%B8%ED%95%8F-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
 
-심플한 카운트다운 타이머에서 시작해 **라운드마다 다른 운동을 따라 하는 인터벌 서킷 타이머**로 확장한 iOS 앱. **기획부터 심사·출시까지 혼자 진행해 App Store에 정식 출시**했고, 이후 **6번의 업데이트**를 배포했습니다.
+라운드마다 다른 운동을 따라 하는 **인터벌 서킷 타이머**. 심플한 카운트다운 타이머에서 출발해, 기획부터 심사·출시까지 혼자 진행했습니다.
 
-- 서킷 구간/라운드를 순차 진행하는 **상태 머신**(`IntervalTimerService`) 직접 설계
-- **MVVM + Service 프로토콜 추상화** · UserDefaults(Codable) 저장, 외부 의존성은 Firebase 하나(`TelemetryService`로 격리)
-- 타바타/HIIT/EMOM 프리셋 + **사용자 서킷·커스텀 운동 생성/편집**
-- 플랫폼 중립 레이어(`TimerFitShared`)로 분리해 **watchOS 워치 앱 확장** — 아이폰-워치 루틴 동기화
-- **v1.2.0** — App Group 공유 저장소로 이전 후 **홈 화면 위젯**(원탭 실행) · **Live Activity**(잠금화면·다이내믹 아일랜드)
-- **v1.3.0** — 심사에서 지적된 `audio` 백그라운드 모드를 **철수**하고 로컬 알림 경로로 대체, 자체 합성 전환음 4종, 워치 심플 타이머, VoiceOver 흐름 4개 + 최대 Dynamic Type 대응
-- **v1.4.0** — "끝나는 순간을 놓친다"는 사용자 지적에서 범위를 통째로 바꾼 릴리스. **iOS 26 AlarmKit**으로 완료를 알람으로 격상(무음·집중 모드를 뚫고 끌 때까지), **iOS 17~25는 `.timeSensitive` + 20초 자체 알림음으로 폴백**, 워치는 예약형 확장 런타임 세션
-- **기록 탭 + 성장 대시보드** — 스트릭 · 주간 목표 링 · 운동 히트맵
+- 구간·라운드를 순차 진행하는 **상태 머신** 직접 설계 · MVVM + Service 프로토콜 추상화
+- 플랫폼 중립 레이어로 분리해 **watchOS 앱** 확장 — 폰·워치 루틴 동기화
+- **위젯 · Live Activity**로 잠금화면까지, 완료는 **AlarmKit 알람**(무음·집중 모드를 뚫는다)
+- 심사에서 지적된 `audio` 백그라운드 모드를 우회 대신 **철수**하고 알림 경로로 재설계
 - **fastlane + GitHub Actions**로 아카이브 → TestFlight → 심사 제출 자동화
-- 진행 중(v1.5.0) — **워치에서 한 운동을 폰 기록으로 역동기화**(재설치 복구 포함), 실기기 27항목 게이트 통과
-
 </td>
 <td width="50%" valign="top">
 
-### 📈 Gongmoa (공모아) — 공모주 청약 관리 <sub>App Store 출시 · v1.3.2</sub>
+### 📈 Gongmoa (공모아) — 공모주 청약 관리 <sub>App Store 출시</sub>
 
 <a href="https://apps.apple.com/kr/app/id6793987876"><img src="https://img.shields.io/badge/App%20Store-%EA%B3%B5%EB%AA%A8%EC%95%84-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a> <a href="https://gongmoa.app"><img src="https://img.shields.io/badge/Web-gongmoa.app-1e3a5f?style=flat-square&logo=googlechrome&logoColor=white"/></a>
 
-헤비 공모주 비례 투자자를 위한 **청약 일정·기록·손익 자동 계산** 앱. **첫 커밋부터 App Store 출시까지 1주**에 완주했고, 이후 **6번의 업데이트**를 이어갔습니다.
+공모주 **청약 일정·기록·손익을 자동 계산**하는 앱. 첫 커밋부터 App Store 출시까지 1주에 완주했습니다.
 
-- **웹 코어 하이브리드** — React + TS 코어를 Capacitor로 iOS 네이티브 셸에 탑재
-- 같은 코어를 웹([gongmoa.app](https://gongmoa.app))으로도 배포 — **웹·iOS 동시 서비스**
-- 파생 상태를 저장하지 않는 **단일 진실 원본** 설계 (손익·자금효율 항상 재계산)
-- **오프라인 우선** — Repository 추상화로 SQLite(iOS)/IndexedDB(웹) 저장, 로그인 없이도 완전 동작
-- **다기기 동기화** — Supabase Realtime · **RLS** 정책 · Edge Function 계정 삭제
-- **Xcode Cloud CI** — 웹 코어 빌드를 네이티브 빌드 단계에 주입, 빌드 전 **테스트 게이트**
-- **관측·성능** — Sentry 환경 분리(크래시 프리 100%), Supabase SDK 지연 로드로 **초기 번들 28% 감소**, 렌더 결과를 검사하는 자체 감사 도구
-- **v1.3.2 — 기능이 아니라 유입 릴리스.** 이름·부제·키워드가 서로 중복돼 색인을 낭비하던 것을 재설계하고, 웹 첫 화면에 차별점·신뢰 신호를 넣었습니다
-- 진행 중(v1.4.0) — **피봇.** 기록(행동 후)에만 있던 제품을 **일정(행동 전)까지** 넓혀 닫힌 루프로 만드는 작업. **DART → Supabase 공모 일정 수집 파이프라인** + 원탭 기록 생성
-- Android 셸(Capacitor 8)까지 준비 완료, Play 출시는 비공개 테스트 요건으로 보류 중
-
+- **웹 코어 하이브리드** — React + TS 코어를 Capacitor로 iOS에 탑재하고, 같은 코어를 웹([gongmoa.app](https://gongmoa.app))으로도 배포
+- 파생 상태를 저장하지 않는 **단일 진실 원본** · **오프라인 우선**(SQLite/IndexedDB) — 로그인 없이도 전 기능 동작
+- **Supabase** 실시간 동기화 · RLS 정책 · Edge Function 계정 삭제
+- **Xcode Cloud** 빌드 전 테스트 게이트, Sentry 환경 분리, SDK 지연 로드로 초기 번들 **28% 감소**
+- 유입이 없다는 지표를 보고 기능 대신 **ASO·첫인상**을 손봤고, 지금은 일정 데이터(DART 수집)로 제품의 웨지를 넓히는 중
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🧌 Doblin — 성장형 할 일 앱 <sub>App Store 출시 · v1.3.0 · v1.4.0 심사 중</sub>
+### 🧌 Doblin — 성장형 할 일 앱 <sub>App Store 출시</sub>
 
 <a href="https://apps.apple.com/kr/app/id6793759598"><img src="https://img.shields.io/badge/App%20Store-Doblin-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
 
-"오늘 지금 뭘 해야 하지?"에 답하는 할 일 앱. 완료할수록 자라는 캐릭터가 보상입니다. **v1.3.0까지 출시**했고, **v1.4.0이 심사 중**입니다.
+"오늘 지금 뭘 해야 하지?"에 답하는 할 일 앱. 완료할수록 자라는 캐릭터가 보상입니다.
 
 - **TCA + SwiftData** — 단일 진실 원본, `TestStore` 기반 유닛 테스트 135건
-- **자연어 날짜 파싱** 입력, 반복 작업(매일/주중/주간/월간), 홈 화면 **위젯**(App Group 공유)
-- 로컬 알림(전역 + 작업별), 드래그 정렬 · 스와이프 · 실행 취소 토스트
-- **5개 언어**(한·영·일·중·서) 현지화 + 인앱 언어 전환, 다크 우선 테마, 접근성 패스
-- **v1.2.0** — Firebase Crashlytics/Analytics 도입. 리듀서·뷰는 Firebase를 모르고 `@Dependency` 뒤에 격리, 이벤트는 **닫힌 enum**이라 사용자 입력이 실릴 수 없습니다. 개인정보 라벨·처리방침·스토어 문구를 함께 갱신
-- **v1.3.0** — 첫 실행 투어(항상 건너뛸 수 있는 2단계) · 자연어 날짜 힌트 · 방해하지 않는 시점의 평가 요청 · 위젯 현지화
-- **v1.4.0(심사 중)** — **하위 할 일 체크리스트**(행·카드에 `1/3` 진행률, 펼쳐서 바로 체크), 저장을 **증분 upsert**로 전환, 출시본이 만든 실제 스토어로 `SchemaV2` 마이그레이션 검증, 한 번도 재본 적 없던 **콜드스타트를 실기기에서 612ms로 측정**(예산 대비 39% 여유)
-- **XcodeGen** 프로젝트 생성 · 재현 가능한 스크린샷 파이프라인 · **fastlane**으로 메타데이터/스크린샷 업로드부터 심사 제출까지 자동화
-
+- **자연어 날짜 파싱** 입력 · 반복 작업 · 하위 할 일 체크리스트 · 홈 화면 **위젯**(App Group 공유)
+- **5개 언어**(한·영·일·중·서) + 인앱 언어 전환, 다크 우선 테마, 접근성 패스
+- Firebase는 `@Dependency` 뒤에 격리하고 이벤트를 **닫힌 enum**으로 — 사용자가 입력한 내용이 실릴 수 없습니다
+- **XcodeGen** · 재현 가능한 스크린샷 파이프라인 · **fastlane**으로 메타데이터부터 심사 제출까지 자동화
 </td>
 <td width="50%" valign="top">
 
-### 🚗 Cargineer (카지니어) — 차계부·차량 관리 <sub>App Store 출시 · v1.2.0 · v1.3.0 심사 중</sub>
+### 🚗 Cargineer (카지니어) — 차계부·차량 관리 <sub>App Store 출시</sub>
 
 <a href="https://apps.apple.com/kr/app/id6797176247"><img src="https://img.shields.io/badge/App%20Store-%EC%B9%B4%EC%A7%80%EB%8B%88%EC%96%B4-0D96F6?style=flat-square&logo=appstore&logoColor=white"/></a>
 
-주유·정비 기록과 실연비를 한 번에 관리하는 다중 차량 앱. **2025년 UIKit 프로토타입에서 멈춰 있던 것을 2026년 SwiftUI로 전면 재구축해 출시**했습니다.
+주유·정비 기록과 실연비를 관리하는 다중 차량 앱. 멈춰 있던 **UIKit 프로토타입을 SwiftUI로 전면 재구축**해 출시했습니다.
 
-- **재구축 전후** — 외부 의존성 4개(RxSwift·ReactorKit·SnapKit·Then) → **0개**, 도달 가능한 화면 2개 → **13개+**, 테스트 0건 → **유닛 163건 + UI 18건**
-- **SwiftUI + SwiftData + `@Observable`** — Core Data·`AppDelegate`·NotificationCenter 화면 통신을 걷어내고 SwiftUI 라이프사이클로 통일
-- **도메인 엔진 3종**(프레임워크 의존 없는 순수 함수) — Full-to-Full 실연비 계산 · 정비 시기 예측(주행거리/기간 중 먼저 도래하는 쪽) · 차량 건강 점수
-  - 기준점이 없는 **첫 주유는 연비를 계산하지 않습니다** — 추정값을 실측처럼 보여주지 않기 위한 선택
-- **디자인 시스템** — 컬러 토큰 15종을 Light/Dark 두 벌로 Asset Catalog에 정의(뷰 코드에 색 리터럴 0개), 대비 검증 · Dynamic Type · Reduce Motion 대응
-- Swift Charts 연비 추이 · 비용 도넛, 정비 예측 기반 **로컬 알림 자동 재예약**
-- **v1.1.0** 영어 현지화 + 제조사 정규화 · **v1.2.0** 홈 화면 위젯 4종 + 글로벌화(기록별 통화·단위)
-- **v1.3.0(심사 중)** — 세 버전 미뤄온 품질 부채를 갚은 라운드. **XCUITest 핵심 3플로우 + 회귀 3건 고정**, 전 타깃 **Swift 6 + Strict Concurrency 경고 0**, ko/en × 기본/AX5 접근성 실검수, 차종 카탈로그를 **언어 무관 코드로 저장·지역별 표시**, 위젯을 길게 눌러 차량 선택(`AppIntentConfiguration`)
-- **fastlane**으로 서명·아카이브·TestFlight·메타데이터/스크린샷 업로드까지 자동화, Firebase는 추상화 뒤에 격리
-
+- **재구축 전후** — 외부 의존성 4개 → **0개**, 도달 가능한 화면 2개 → **13개+**, 테스트 0건 → **181건**
+- **도메인 엔진 3종**(프레임워크 의존 없는 순수 함수) — Full-to-Full 실연비 · 정비 시기 예측 · 차량 건강 점수
+  - 기준점이 없는 **첫 주유는 연비를 계산하지 않습니다** — 추정값을 실측처럼 보여주지 않기 위해
+- **디자인 시스템** — 컬러 토큰 15종을 Light/Dark 두 벌로(뷰 코드에 색 리터럴 0개), 대비·Dynamic Type·Reduce Motion 대응
+- Swift Charts 연비 추이·비용 도넛, 정비 예측 기반 **로컬 알림 자동 재예약**, 차량 선택형 위젯
+- 전 타깃 **Swift 6 + Strict Concurrency 경고 0**, XCUITest로 핵심 플로우와 회귀 고정
 </td>
 </tr>
 </table>
